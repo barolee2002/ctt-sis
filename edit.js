@@ -105,15 +105,15 @@ cancelButton.addEventListener("click", () => {
 // Xử lý sự kiện khi nhấn nút "Reset"
 resetButton.addEventListener("click", () => {
     // Đặt lại giá trị của input
-    hoTenInput.value = "LÊ VĂN BẢO"
+    hoTenInput.value = "NGUYỄN VĂN ĐỨC"
     namVaoTruongInput.value = "2020"
     bacDaoTao.value = "KSCLC-TN-TT-VN-ICT"
     chuongTrinh.value = "Công nghệ thông tin Việt-Nhật 2020"
     khoaVien.value = "Trường Công nghệ Thông tin và Truyền thông"
     gioiTinh.value = "Nam"
-    lop.value = "Việt Nhật 05-K65"
+    lop.value = "Việt Nhật 05-K64"
     khoaHoc.value = "65"
-    email.value = "bao.lv205057@sis.hust.edu.vn"
+    email.value = "duc.nv204953@sis.hust.edu.vn"
     avatarImage.src = "./image/avatar.png";
     localStorage.setItem("hoTen", hoTenInput.value);
     localStorage.setItem("namVaoTruong", namVaoTruongInput.value);
